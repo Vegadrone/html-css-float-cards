@@ -2,44 +2,103 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
     width: 80%;
     margin: 0 auto;
 }
 
 header{
     text-align: center;
+    
+    
 }
 
-.card-container {
+h1{
+    margin: 25px;
+    color:rgb(203, 9, 70)
+}
+
+.card-container-top {
+    margin-top: 50px;
+    
+}
+
+.card-container-bot{
     margin-top: 50px;
 }
 
 .card {
     width: calc(95%/3);
-    height: 150px;
+    height: 170px;
     background-color: rgb(14, 14, 36);
     float: left;
+    box-shadow: 0,0,0,50px;
     margin-left: 15px;
     margin-bottom: 15px;
-
+/* fuzzy border */
+    background-color:black;
+    border-style:solid;
+    border-width:1px;
+    border-color:rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
 .image {
     float: left;
     width: calc(100%/3);
     height: 100%;
-    background-image: url(../img/male1.png);
-    background-size: contain;
+    background-size: cover;
+    background-repeat:no-repeat;
+    vertical-align: middle;
+    
 }
+
+.first{
+    background-image: url(../img/male1.png);
+}
+
+.second{
+    background-image: url(../img/female1.png);
+}
+.third{
+    background-image: url(../img/male2.png);
+}
+
+.fourth{
+    background-image: url(../img/female2.png);
+}
+
+.fifth{
+    background-image: url(../img/male3.png);
+}
+
+.sixth{
+    background-image: url(../img/female3.png);
+}
+
+
+
 
 .card-text {
     color: white;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-left: 180px   
 }
 
 a {
     text-decoration: none;
     color: rgb(63, 109, 210);
+    display: inline-block;
 }
