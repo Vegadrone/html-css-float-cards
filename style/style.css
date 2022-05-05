@@ -4,4 +4,36 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
 
+.card-container{
+   
+}
+
+.card{
+    width: 350px;
+    height: 175px;
+    background-color: rgb(14, 14, 36);
+    float: left;
+    margin: 10px;    
+}
+
+.image{
+    float: left;
+    width: calc(100%/3);
+    height: 100%;
+
+    background-color: blueviolet;
+}
+
+.card-text{
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(63, 109, 210);
+}
