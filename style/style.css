@@ -6,99 +6,32 @@
 }
 
 
-.container::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
+body{
+    background-color: #cecece;
+}
 .container{
+    background-color: white;
+    border: 1px solid black;
     width: 80%;
     margin: 0 auto;
 }
 
-header{
-    text-align: center;
-    
-    
-}
-
-h1{
-    margin: 25px;
-    color:rgb(203, 9, 70)
-}
-
-.card-container-top {
-    margin-top: 50px;
-    
-}
-
-.card-container-bot{
-    margin-top: 50px;
-}
-
-.card {
-    width: calc(95%/3);
-    height: 170px;
-    background-color: rgb(14, 14, 36);
+.fleft{
     float: left;
-    box-shadow: 0,0,0,50px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-/* fuzzy border */
-    background-color:black;
-    border-style:solid;
-    border-width:1px;
-    border-color:rgb(0, 0, 0);
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
-.image {
-    float: left;
-    width: calc(100%/3);
-    height: 100%;
-    background-size: cover;
-    background-repeat:no-repeat;
-    vertical-align: middle;
-    
+.card-container{
+    border: 1px solid black;
+    background-color: aquamarine;
 }
 
-.first{
-    background-image: url(../img/male1.png);
-}
+.cards{
+    border: 1px solid black;
 
-.second{
-    background-image: url(../img/female1.png);
-}
-.third{
-    background-image: url(../img/male2.png);
-}
-
-.fourth{
-    background-image: url(../img/female2.png);
-}
-
-.fifth{
-    background-image: url(../img/male3.png);
-}
-
-.sixth{
-    background-image: url(../img/female3.png);
-}
-
-
-
-
-.card-text {
-    color: white;
-    vertical-align: middle;
-    line-height: 50px;
-    margin-top: 10px;
-    margin-left: 180px   
-}
-
-a {
-    text-decoration: none;
-    color: rgb(63, 109, 210);
-    display: inline-block;
 }
