@@ -22,6 +22,16 @@ body{
     margin: 0 auto;
 }
 
+h1{
+    text-align: center;
+    color: rgb(181, 11, 73);
+    margin: 30px;
+}
+
+.text{
+    text-align: center;
+}
+
 .fleft{
     float: left;
 }
@@ -29,9 +39,18 @@ body{
 .card-container{
     border: 1px solid black;
     background-color: aquamarine;
+    margin-top: 50px;
 }
 
 .cards{
     border: 1px solid black;
+    background-color: rgb(20, 20, 94);
+    width: calc(100%/3);
+}
 
+
+.card-text{
+    color: white;
+    line-height: 50px;
+    margin-top:25px;
 }
